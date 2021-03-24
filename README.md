@@ -1,6 +1,11 @@
 # SnakeGame
 
+Its a Simple Snake Game build using Angular 11. 
+Do checkout the GitHub page and play the game. [Game](https://akkitheakhil.github.io/Angular-Snake-Game/).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+
+
 
 ## Development server
 
