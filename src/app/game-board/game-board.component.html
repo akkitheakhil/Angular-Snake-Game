@@ -1,0 +1,29 @@
+
+<div class="container">
+
+  <div class="score-card">
+    <div>
+      <h1>Score</h1>
+      <h3>{{food?.currentScore}}</h3>
+    </div>
+
+    <div class="restart-button" (click)="restart()">
+        RESTART
+    </div>
+  </div>
+
+  <div class="game-board">
+
+  </div>
+
+  <div class="mobile-controls">
+    <nav class="o-pad">
+      <a class="up" (click)="dpadMovement('ArrowUp')"></a>
+      <a class="right" (click)="dpadMovement('ArrowRight')"></a>
+      <a class="down" (click)="dpadMovement('ArrowDown')"></a>
+      <a class="left" (click)="dpadMovement('ArrowLeft')"></a>
+    </nav>
+  </div>
+</div>
+
+
