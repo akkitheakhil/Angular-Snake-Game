@@ -67,6 +67,8 @@ export class GameBoardComponent implements OnInit, AfterViewInit {
 
   checkDeath() {
     this.gameOver = outsideGrid(this.snake.getSnakeHead()) || this.snake.snakeIntersection();
+    if(!this.gameOver) return;
+    this.gameBoard.classList.add("blur");
   }
 
   restart() {

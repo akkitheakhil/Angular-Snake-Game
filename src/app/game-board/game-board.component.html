@@ -2,7 +2,7 @@
 <div class="container">
 
   <div class="score-card">
-    <div>
+    <div class="score-board">
       <h1>Score</h1>
       <h3>{{food?.currentScore}}</h3>
     </div>
@@ -14,6 +14,11 @@
 
   <div class="game-board">
 
+
+  </div>
+
+  <div class="game-over" *ngIf="gameOver">
+    <h1>Game Over</h1>
   </div>
 
   <div class="mobile-controls">
@@ -24,6 +29,8 @@
       <a class="left" (click)="dpadMovement('ArrowLeft')"></a>
     </nav>
   </div>
-</div>
 
+
+
+</div>
 
