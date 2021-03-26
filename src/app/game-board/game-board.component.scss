@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-evenly;
 
-
   .mobile-controls{
     display: none;
     flex: 1;
@@ -247,9 +246,14 @@
   z-index: 1;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+
+  h1 {
+    font-size: 3em;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+// Ipads and Mobiles
+@media only screen and (max-width: 1025px) {
   .container {
     flex-direction: column;
 
@@ -257,7 +261,6 @@
       flex-direction: row !important;
     }
   }
-
   .mobile-controls{
     margin-top: 10px;
     display: flex !important;

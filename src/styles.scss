@@ -35,11 +35,13 @@ body {
 .snake {
   background-color: var(--snake-color);
   border: 0.25vmin solid black;
+  transition: all .3ms ease-in;
 }
 
 .food {
   border-radius: 50%;
   background-color: var(--food-color);
   border: 0.25vmin solid black;
+  transition: all .3ms ease-in;
 }
 
