@@ -1,32 +1,50 @@
-# SnakeGame
+<p align="center">
+  <h1 align="center">Snake Game - Angular</h1>
 
-Its a Simple Snake Game build using Angular 11. 
-Do checkout the GitHub page and play the game. [Game](https://akkitheakhil.github.io/Angular-Snake-Game/).
+  <p align="center">
+    Simple Snake Game build using Angular 11. 
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+Checkout the GH Page to play the [game](https://akkitheakhil.github.io/Angular-Snake-Game/) 
 
+* Screenshots
 
+![Mobile](/Screenshot.jpg)
 
-## Development server
+### Built With
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* [Angular CLI](https://github.com/angular/angular-cli)
 
-## Code scaffolding
+<!-- GETTING STARTED -->
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To get a local copy up and running follow these simple example steps.
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/akkitheakhil/Angular-Snake-Game.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the command
+   ```sh
+   ng serve
+   ```
 
-## Running end-to-end tests
+<!-- CONTACT -->
+## Contact
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Akhil Padmanabhan - speaktoakhilp@gmail.com
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Project Link: [https://github.com/akkitheakhil/Angular-Snake-Game/](https://github.com/akkitheakhil/Angular-Snake-Game/)
